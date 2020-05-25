@@ -1,0 +1,6 @@
+Adjunto el link del repositorio.
+
+https://github.com/melyalcantara/ProgramacioWeb1
+
+Esto contiene 2 carpetas, donde esta los ejercicios hecho con la guia #1, paso a paso y los ejercicios complementarios de la misma guia.
+
