@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3 numeros ingresados</title>
+	<style type="text/css">
+			h1{color: #fc9d9d; background-color: #900c3f; text-align: center;}
+	</style>
+</head>
+<body>
+	<div class="jumbotron">
+  <h1 class="display-4">Melissa Alcantara</h1>
+	<script type="text/javascript">
+		var num1,num2,num3;
+		num1= prompt('Ingrese primer numero:', '');
+		num2= prompt('Ingrese segundo numero:', '');
+		num3= prompt('Ingrese tercer numero:', '');
+		num1=parseInt(num1);
+		num2=parseInt(num2);
+		num3=parseInt(num3);
+
+		if( num1>num2 && num1>num3){
+			document.write(num1 + ' Es el numero mayor');
+		}
+		else
+		{
+			if (num2>num3 && num2>num1) {
+				document.write(num2 + ' Es el numero mayor');
+
+			}
+			else{
+				document.write(num3 + ' Es el mayor');
+			}
+		}
+		document.write('<br>');
+		if( num1<num2 && num1<num3){
+			document.write(num1 + ' Es el numero menor');
+		}
+		else
+		{
+			if (num2<num3 && num2<num1) {
+				document.write(num2 + ' Es el numero menor');
+
+			}
+			else{
+				document.write(num3 + ' Es el menor');
+			}
+		}
+
+
+
+
+	</script>
+
+</body>
+</html>

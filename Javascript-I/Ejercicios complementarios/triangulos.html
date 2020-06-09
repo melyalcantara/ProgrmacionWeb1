@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Triangulos</title>
+  <meta charset="UTF-8">
+  <style type="text/css">
+      h1{color: #fc9d9d; background-color: #900c3f; text-align: center;}
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+  <h1 class="display-4">Melissa Alcantara</h1>
+  
+</div>
+<script>
+    var i,a,b,c,equilatero=0,isosceles=0,escaleno=0,minimo,txt;
+    for(i=1;i<=4;i++)
+    {
+        a=parseFloat(prompt('Introduzca lado 1: '));
+        b=parseFloat(prompt('Introduzca lado 2: '));
+        c=parseFloat(prompt('Introduzca lado 3: '));
+        document.write('<br> Triangulo '+i+' : '+a+' , '+b+' , '+c);
+        if(a==b && b==c){
+            document.write(' <br> El triangulo es Equilátero ');
+            equilatero=equilatero+1;
+            document.write('<br>')
+        }
+        else if(a==b || b==c || a==c)
+        {
+            document.write(' <br> El triangulo es Isósceles  ');
+            isosceles=isosceles+1;
+            document.write('<br>')
+        }
+        else{
+            document.write(' <br> El triangulo es Escaleno ');
+            escaleno=escaleno+1;
+            document.write('<br>')
+
+        }
+    }
+    document.write('<br>')
+    document.write('<br> Triangulos Equilátero: '+equilatero);
+    document.write('<br> Triangulos Isósceles: '+isosceles);
+    document.write('<br> Triangulos Escalenos: '+escaleno);
+</script>
+
+</body>
+</html>

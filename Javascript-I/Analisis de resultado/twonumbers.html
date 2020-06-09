@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2 numbers</title>
+	<style type="text/css">
+		h1{color: #fc9d9d; background-color: #900c3f; text-align: center;}
+	</style>
+</head>
+<body>
+	<div class="jumbotron">
+  <h1 class="display-4">Melissa Alcantara</h1>
+	<script type="text/javascript">
+		var num1,num2;
+
+		num1=prompt('Ingrese primer numero:', '');
+		num2=prompt('Ingrese segundo numero:','');
+		num1=parseInt(num1);
+		num2=parseInt(num2);
+		if(num1>num2){
+			var suma, resta;
+			suma= num1+num2;
+			resta= num1-num2;
+			document.write('La suma de los numeros es: ' +suma);
+			document.write('<br>');
+			document.write('La diferencia de los numeros es: ' +resta);
+
+
+		}
+		else{
+			var prod,div;
+			prod= num1*num2;
+			div=num1/num2;
+			document.write('El producto de los numeros es: ' +prod);
+			document.write('<br>');
+			document.write('La division de los numeros es: ' +div);
+		}
+
+	</script>
+
+</body>
+</html>
